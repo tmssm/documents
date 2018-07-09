@@ -77,7 +77,7 @@ You can pass these parameters to us.
 |aff_sub4|string|your custom parameter|
 |aff_sub5|string|your custom parameter|
 
-### example
+### Example
 `http://tr.mediumin.com/aff_c?offer_id=101191479200702&aff_id=10001&aff_sub=a1233&sub_channel=128`
 
 ## Postback
@@ -85,8 +85,7 @@ You are able to login in the dashboard to set postback.
 
 Login url: `http://channel.mediumin.com/channel/#/login`
 
-Postback support parameters.
-
+Postback support parameters:
 
 |Field|Type|Description|
 |----|----|--------------|
@@ -103,7 +102,7 @@ Postback support parameters.
 |country|string| which country click occurs,like `"US"`|
 
 
-### example 
+### Example 
 If your postback is `http://pb.my.com/pb?clickid={aff_sub}&price={payout}`
 
 We will request `http://pb.my.com/pb?clickid=a1233&price=0.2` to postback to you.
