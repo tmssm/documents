@@ -1,15 +1,15 @@
-# Mediumin api usage for publisher
+# Mediumin Bulk API Documentation
 
-## Get offers by api request
+## Get offers via api request
 
 ### API request url
 `http://api.mediumin.com/offers/?aff_id={yourAffId}&aff_token={yourAffToken}`
 
-replace aff_id and aff_token you own.
+Get aff_id and aff_token from your account manager.
 
 
 ## Response
-response is in json format.
+Response is in json format.
 
 
 |Field|Type|Description|Example|
@@ -64,7 +64,7 @@ response is in json format.
 }
 ```
 ## Tracking link
-you can pass these parameters to us.
+You can pass these parameters to us.
 
 |Field|Type|Description|
 |----|----|--------------|
@@ -81,11 +81,11 @@ you can pass these parameters to us.
 `http://tr.mediumin.com/aff_c?offer_id=101191479200702&aff_id=10001&aff_sub=a1233&sub_channel=128`
 
 ## Postback
-you can login our channel dashboard to set postback.
+You are able to login in the dashboard to set postback.
 
-login url: `http://channel.mediumin.com/channel/#/login`
+Login url: `http://channel.mediumin.com/channel/#/login`
 
-postback support parameters.
+Postback support parameters.
 
 
 |Field|Type|Description|
@@ -104,9 +104,9 @@ postback support parameters.
 
 
 ### example 
-if your postback is `http://pb.my.com/pb?clickid={aff_sub}&price={payout}`
+If your postback is `http://pb.my.com/pb?clickid={aff_sub}&price={payout}`
 
-we will request `http://pb.my.com/pb?clickid=a1233&price=0.2` to postback to you.
+We will request `http://pb.my.com/pb?clickid=a1233&price=0.2` to postback to you.
 
 
 
