@@ -3,7 +3,7 @@
 ## Get offers by api request
 
 ### API request url
-`http://api.mediumin.com/offers/?aff_id={yourAffId}&aff_token={yourAffToen}`
+`http://api.mediumin.com/offers/?aff_id={yourAffId}&aff_token={yourAffToken}`
 
 replace aff_id and aff_token you own.
 
@@ -100,7 +100,7 @@ postback support parameters.
 |aff_sub5|string|your custom parameter|
 |payout|string|offer price|
 |offer_id|string|offer id in our system|
-|country|string|click occur in which country,like `"US"`|
+|country|string| which country click occurs,like `"US"`|
 
 
 ### example 
