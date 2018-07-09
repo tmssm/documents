@@ -10,11 +10,13 @@ replace aff_id and aff_token you own.
 
 ## Response
 response is in json format.
+
+
 |Field|Type|Description|Example|
 |----|----|--------------|----------------|
 |error|boolean|when success,error=false|false|
 |counts|int|offer counts|1200|
-|data|offer[]|offers array|[{id:"112...}...]|
+|data|offer[]|offers array|[{"id":"112...}...]|
 
 ### Offer
 |Field|Type|Description|Example|
@@ -83,7 +85,9 @@ you can login our channel dashboard to set postback.
 
 login url: `http://channel.mediumin.com/channel/#/login`
 
-postback support parameters
+postback support parameters.
+
+
 |Field|Type|Description|
 |----|----|--------------|
 |aff_sub|string|your clickid|
@@ -100,8 +104,9 @@ postback support parameters
 
 
 ### example 
-if your postback is `http://pb.my.com/`
+if your postback is `http://pb.my.com/pb?clickid={aff_sub}&price={payout}`
 
+we will request `http://pb.my.com/pb?clickid=a1233&price=0.2` to postback to you.
 
 
 
