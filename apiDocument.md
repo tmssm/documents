@@ -72,6 +72,7 @@ You can pass these parameters to us.
 |sub_channel|string|your channel|
 |gaid|string|Google Advertising ID|
 |idfa|string|ios bundle id|
+|app_name|string|application name that click occus on |
 |aff_sub2|string|your custom parameter|
 |aff_sub3|string|your custom parameter|
 |aff_sub4|string|your custom parameter|
