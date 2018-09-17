@@ -35,6 +35,8 @@ Response is in json format.
 |os|string|operator system,android/ios/other|"android"|
 |icon|string|icon url |`"https://lh3.googleusercontent.com/demo.icon"`|
 |app_category|string|category show on app shop |"Tools"|
+|block_subs|array|your subs that should be blocked|[203,311]|
+|white_subs|array\|null|your subs that can access.if null,offer is block sub mode|[201,sub33]|
 
 
 ### Example
@@ -58,7 +60,9 @@ Response is in json format.
             "app_title": "",
             "os": "android",
             "icon": "",
-            "app_category": "Tools"
+            "app_category": "Tools",
+            "block_subs":[],
+            "white_subs":null
         }
     ]
 }
