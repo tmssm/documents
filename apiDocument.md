@@ -63,6 +63,9 @@ Response is in json format.
             "app_title": "",
             "os": "android",
             "icon": "",
+            "creatives": "",
+            "preview_url: "",
+            "description": "",
             "app_category": "Tools",
             "block_subs":[],
             "white_subs":null
