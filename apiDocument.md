@@ -33,6 +33,7 @@ Response is in json format.
 |app_title|string|app name|"Facebook"|
 |package|string|package id or apple bundle id|"com.facebook.demo"|
 |os|string|operator system,android/ios/other|"android"|
+|os_version|string|operator system version|"4.0"|
 |icon|string|icon url |`"https://lh3.googleusercontent.com/demo.icon"`|
 |app_category|string|category show on app shop |"Tools"|
 |creatives|string|creatives of offer|`"http://cdn..."`|
@@ -61,6 +62,7 @@ Response is in json format.
             "package": "com.zynga.words3",
             "app_title": "",
             "os": "android",
+            "os_version": "",
             "icon": "",
             "creatives": "",
             "preview_url: "",
