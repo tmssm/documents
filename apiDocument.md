@@ -37,7 +37,6 @@ Response is in json format.
 |app_category|string|category show on app shop |"Tools"|
 |creatives|string|creatives of offer|`"http://cdn..."`|
 |preview_url|string|the preview url of the offer|`"https://itunes.apple.com/il/app/..."`|
-|description|string|description of offer|`"this is the best ..."`|
 |block_subs|array|your subs that should be blocked|["203","311"]|
 |white_subs|array\|null|your subs that can access.if null,offer is block sub mode|["201","sub33"]|
 
