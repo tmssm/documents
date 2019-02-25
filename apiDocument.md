@@ -86,7 +86,7 @@ You can pass these parameters to us.
 |aff_sub2|string|your custom parameter|
 |aff_sub3|string|your custom parameter|
 |aff_sub4|string|your custom parameter|
-|aff_sub5|string|your custom parameter|
+|aff_sub5|string|app name|
 
 ### Example
 `http://tr.mediumin.com/aff_c?offer_id=101191479200702&aff_id=10001&aff_sub=a1233&sub_channel=128`
@@ -107,7 +107,7 @@ Postback support parameters:
 |aff_sub2|string|your custom parameter|
 |aff_sub3|string|your custom parameter|
 |aff_sub4|string|your custom parameter|
-|aff_sub5|string|your custom parameter|
+|aff_sub5|string|app name|
 |payout|string|offer price|
 |offer_id|string|offer id in our system|
 |country|string| which country click occurs,like `"US"`|
