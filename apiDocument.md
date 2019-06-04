@@ -7,6 +7,11 @@
 
 Get aff_id and aff_token from your account manager.
 
+|Field|Require|Description|Example|
+|----|----|--------------|----------------|
+|aff_id|YES|your aff_id| / |
+|aff_token|YES|your aff_token| / |
+|get_creatives|NO|set '1' if you need creatives,default '0'|'1'|
 
 ## Response
 Response is in json format.
