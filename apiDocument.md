@@ -120,10 +120,18 @@ If your postback is `http://pb.my.com/pb?clickid={aff_sub}&price={payout}`
 We will request `http://pb.my.com/pb?clickid=a1233&price=0.2` to postback to you.
 
 
+## Event Postback
 
+Event Postback support parameters:
 
+|Field|Type|Description|
+|----|----|--------------|
+|aff_sub|string|your clickid|
+|event_name|string|event name|
+|event_value|string|event value|
+|event_time|string|the time event occurs|
 
-
+Contact the AM if you need the event postback.
 
 
 
