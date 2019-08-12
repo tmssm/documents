@@ -47,6 +47,7 @@ Response is in json format.
 |white_subs|array\|null|your subs that can access.if null,offer is block sub mode|["201","sub33"]|
 |app_name_required|boolean|app name is required(aff_sub5 in Tracking link) if true|false|
 |target_network|string|network operator|"U MOBILE"|
+|target_model|string|conver model|"2 CLICKS"|
 
 ### Example
 ```
