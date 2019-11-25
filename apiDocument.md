@@ -48,6 +48,7 @@ Response is in json format.
 |app_name_required|boolean|app name is required(aff_sub5 in Tracking link) if true|false|
 |target_network|string|network operator|"U MOBILE"|
 |target_model|string|conver model|"2 CLICKS"|
+|impression_link|string|impression link|`"http://tr.mediumin.com/aff_c?offer_id=101191479200702&aff_id=10001"`|
 
 ### Example
 ```
