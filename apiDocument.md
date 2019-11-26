@@ -110,6 +110,7 @@ Postback support parameters:
 |Field|Type|Description|
 |----|----|--------------|
 |aff_sub|string|your clickid|
+|imp_id|string|your impression id|
 |sub_channel|string|your channel|
 |gaid|string|Google Advertising ID|
 |idfa|string|ios bundle id|
