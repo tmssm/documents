@@ -91,11 +91,10 @@ You can pass these parameters to us.
 |sub_channel|string|your channel|
 |gaid|string|Google Advertising ID|
 |idfa|string|ios bundle id|
-|app_name|string|application name that click occus on |
 |aff_sub2|string|your custom parameter|
-|aff_sub3|string|your custom parameter|
-|aff_sub4|string|your custom parameter|
-|aff_sub5|string|app name|
+|aff_sub3|string|impression id|
+|aff_sub4|string|app name|
+|aff_sub5|string|application bundle that click occus on |
 
 ### Example
 `http://tr.mediumin.com/aff_c?offer_id=101191479200702&aff_id=10001&aff_sub=a1233&sub_channel=128`
@@ -115,9 +114,9 @@ Postback support parameters:
 |gaid|string|Google Advertising ID|
 |idfa|string|ios bundle id|
 |aff_sub2|string|your custom parameter|
-|aff_sub3|string|your custom parameter|
-|aff_sub4|string|your custom parameter|
-|aff_sub5|string|app name|
+|aff_sub3|string|impression id|
+|aff_sub4|string|app name|
+|aff_sub5|string|application bundle that click occus on |
 |payout|string|offer price|
 |offer_id|string|offer id in our system|
 |country|string| which country click occurs,like `"US"`|
