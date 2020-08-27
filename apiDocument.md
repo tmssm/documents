@@ -95,6 +95,9 @@ You can pass these parameters to us.
 |aff_sub3|string|impression id|
 |aff_sub4|string|app name|
 |aff_sub5|string|application bundle that click occus on |
+|ip|string|IP address(for example: 13.14.255.1) Only for ios ver >= 14|
+|language|string|Language(for example: en-US) Only for ios ver >= 14|
+|user_agent|string|User agent, should be URL encode, for example: "Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+13_6+like+Mac+OS+X%29+AppleWebKit%2F605.1.15+%28KHTML%2C+like+Gecko%29+Mobile%2F15E148" Only for ios ver >= 14|
 
 ### Example
 `http://tr.mediumin.com/aff_c?offer_id=101191479200702&aff_id=10001&aff_sub=a1233&sub_channel=128`
